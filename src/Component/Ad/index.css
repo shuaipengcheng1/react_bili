@@ -1,0 +1,70 @@
+div#advidase {
+  width: 80%;
+  min-width: 1000px;
+  display: flex;
+  margin: 0px auto;
+  justify-content: space-between;
+}
+div#advidase div#ad_contain {
+  height: 192px;
+  display: flex;
+  justify-content: space-between;
+}
+div#advidase div#ad_contain div.ad_context {
+  width: 24%;
+  height: 192px;
+}
+div#advidase div#ad_contain div.ad_context img {
+  width: 100%;
+  height: 116px;
+}
+div#advidase div#ad_contain div.ad_context a {
+  color: #000;
+}
+div#advidase div#left_ad {
+  width: 71%;
+  height: 244px;
+}
+div#advidase div#left_ad div#ad_title {
+  display: flex;
+  width: 100%;
+  height: 36px;
+  margin-bottom: 16px;
+}
+div#advidase div#left_ad div#ad_title #ad_item {
+  width: 16%;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+div#advidase div#left_ad div#ad_title #ad_item span {
+  font-size: 20px;
+}
+div#rigth_ad {
+  width: 26%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+}
+div#rigth_ad #suggest {
+  width: 100%;
+  height: 30px;
+  background-color: rgba(255, 192, 203, 0.5);
+  box-shadow: 1px 1px 10px black;
+}
+div#rigth_ad #suggest a {
+  text-align: center;
+  display: block;
+  color: black;
+  font-size: 12px;
+  line-height: 30px;
+}
+div#rigth_ad #img_ad {
+  height: 184px;
+  width: 100%;
+}
+div#rigth_ad #img_ad img {
+  width: 100%;
+  height: 184px;
+}
+/*# sourceMappingURL=./index.css.map */

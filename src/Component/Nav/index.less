@@ -1,0 +1,120 @@
+#Nav{
+    width: 80%;
+    margin: 0px auto;
+    // min-width: 1200px;
+    div.warp{
+        display: flex;
+        padding: 20px 0px 20px 0px;
+        div.left_part{
+          border-right: 1px solid rgba(0, 0, 0, 0.411);
+          display: flex;
+         align-content: center;
+            ul{
+                padding: 0px;
+                 display: flex;
+                 margin: 0px;
+            width: 200px;
+            height: 68px; 
+            }
+           .round_icon{
+                list-style: none;
+                width: 50px;
+                height: 68px;
+                text-align: center;
+                a{
+                     &:hover{
+                    color:skyblue ;
+                }
+                    color: black;
+                }
+               
+                div{
+                    width: 36px;
+                    height: 36px;
+                    border-radius: 50%;
+                    background-color: #ff5c7c;
+                    margin: 0px 6px 4px 6px;
+                    text-align: center;
+                    line-height: 30px;
+                }
+
+            }
+        }
+    }
+}
+.text{
+    width: 748px;
+    height: 68px;
+    display: flex;
+flex-flow: row wrap;
+padding: 0px 2px 0px 2px;
+border-right: 1px solid rgba(0, 0, 0, 0.411);
+border-left: 1px solid rgba(0, 0, 0, 0.411);
+min-width: 748px;
+div{
+ width: 90.55px;
+ height: 34px;
+ position: relative;   
+ div#show_task{
+     width: auto;
+     height: auto;
+     position: absolute;
+     display: flex;
+     flex-flow: wrap row;
+     justify-content: s;
+background-color: white;
+box-shadow: 1px 1px 10px black;
+// display: none;
+z-index: 10000;
+     div.item{
+        //    固定大小
+        color: black;
+        height: 20px;
+        width: 50px;
+        
+
+     }
+ }
+ a{
+     color: #000;
+     &:hover{
+         color:skyblue;
+     }
+     small{
+         font-size: 12px;
+         margin-left:4px ;
+         border-radius: 5px;
+         background-color: skyblue;
+         color:#fff;
+     }
+ }
+}
+}
+.left_part{
+    border: 0px !important;;
+    ul{
+    border:0px;
+        
+        display: flex;
+        flex-flow: wrap;
+
+        li{
+            color: #ff5c7c;
+            padding-left: 4px;
+            list-style: none;
+            width: 30%;
+          
+            a{
+           
+                color: black;
+             
+                &:hover{
+                    color: skyblue;
+                }
+            }
+        }
+    }
+}
+.i{
+    color: white;
+}
